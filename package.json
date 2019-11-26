@@ -1,0 +1,30 @@
+{
+  "name": "js-export-table-schema",
+  "version": "1.0.0",
+  "description": "Exports a json file of a connected mysql db.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jwaxo/js-export-table-schema.git"
+  },
+  "keywords": [
+    "mysql",
+    "mysqljs",
+    "tables",
+    "config"
+  ],
+  "author": "Jeff Wax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwaxo/js-export-table-schema/issues"
+  },
+  "homepage": "https://github.com/jwaxo/js-export-table-schema#readme",
+  "dependencies": {
+    "dbdiff": "^0.5.3",
+    "fs": "0.0.1-security",
+    "mysql": "^2.17.1"
+  }
+}
